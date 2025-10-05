@@ -1,6 +1,6 @@
-# Desert Signals is web-based tool that visualizes real-time air quality and weather data using NASA and open-source APIs.
+# Desert Signals is web-based tool that visualizes real-time air quality and weather data using NASA and open-source APIs. It also uses robotics to monitor the sky and has its own spectrogram.
 
-- Combine NASA TEMPO, OpenAQ, and Open-Meteo data sources
+- Combine NASA OpenAQ, and Open-Meteo data sources. Earthdata.html uses a different API for safety purposes (I am not sure if too many people are using it during the space challenge), so data science and decision making were used to not use other API's for now. This keeps the triad + cybersecurity awareness month in check and not expose anything sensitive (specially those api keys).
 
 - Show near-real-time pollutant concentrations (NO₂, PM₂.₅, O₃, CH₂O, Aerosols, CO)
 
@@ -12,6 +12,7 @@
 
   # Video Demo
   Enjoy our 30 second video demo here: 🌕 https://youtu.be/8nuQSTnmLU8 🌕
+  - Audio is a custom track produced by me with freshly synthesized and original sounds. Some free NASA sounds were morphed and edited a bit. Those sampled sounds are directly from NASA.gov. Video is more symbolic due to some technical difficulties recording my screen for the front end demo, but the mission remains the same.
 
 # Raspberry Pi Spectrometer — NASA Hackathon Build
 
@@ -92,11 +93,81 @@ Features:
 Run server_dashboard.py to start a local Flask server.
 Access via http://localhost:5000 to view live data and location.
 
-  # Disclaimer:
-  We are not NASA but enjoy outer space, real life and challenges.
+# Autonomous Space – Post-Quantum Environmental Monitoring Framework
+
+Autonomous Space is a simulated research framework exploring how autonomous robotics, satellites, drones, and ground systems could coordinate environmental monitoring in a secure and ethical way.
+
+The project demonstrates:
+
+- Multi-layer communication between satellites, drones, aircraft, and ground sensors.
+
+- Post-quantum hybrid encryption (Kyber + Dilithium + AES-256 + HMAC).
+
+- Robotics perception (YOLOv8 simulation).
+
+- Secure routing and policy enforcement between simulated agencies (NASA, NOAA, USGS).
+
+- Risk modeling for heat, drought, evapotranspiration, and flood indicators.
+
+- An educational showcase for Earth observation, AI, and cybersecurity integration.
+
+- This is an educational prototype only. No live satellite or aircraft systems are accessed or controlled.
+
+# Autonomous Simulation Workflow
+
+Data Gathering
+  - Simulated satellite and drone feeds produce temperature, evapotranspiration, and precipitation data.
+
+Risk Analysis
+  - The core/risk.py module evaluates drought and heat conditions.
+
+Consensus Validation
+ - NASA, NOAA, and USGS nodes validate the results via the core/consensus.py module.
+
+Secure Communication
+ - All routing is performed through hybrid post-quantum crypto routines in core/pqcrypto.py and core/router.py
+
+## Clean Air, Clear Choices – Education & Safety Portal
+
+Purpose:
+These pages are designed as a public education resource to help people understand air quality, health protection, and related STEM career pathways. It complements the Autonomous Space project by connecting environmental data science with real-world learning opportunities.
+
+The portal includes:
+
+- Air Pollution Basics: Learn about NO₂, PM₂.₅, O₃, CO, and aerosols.
+
+- Health & Safety Tips: Practical guidance from NASA, WHO, and EPA resources.
+
+- Community Action: Steps to reduce pollution and improve local air quality.
+
+- Training & Careers: Educational programs and verified U.S. job links in NASA, NOAA, and related agencies.
+
+- STEM Roadmap: A simple path for students to begin careers in environmental science, aerospace, or public health.
+
+Educational Intent
+
+All content is based on open data and verified public resources.
+No private systems, APIs, or sensitive information are used.
+This page exists to promote awareness, sustainability, and accessible education.
+
+# Acknowledgments
+
+- NASA Open Data and Earth Science Programs. NASA Space Apps are funded by NASA's Earth Science Division through a contract with Booz Allen Hamilton, Mindgrub, and SecondMuse.
+
+- NOAA Climate Data Records
+
+- USGS Water Data for the Nation
+
+- Ultralytics YOLOv8 Framework
+
+- NIST Post-Quantum Cryptography Project
+
+- AI for letting me speedrun this project solo — proving caffeine and code can, in fact, orbit together.
+
+- Everyone working toward a cleaner, safer planet (you know who you are).
 
   # Buy me a coffee
-  If you enjoy my work, specially this 1 person challenge, you may donate crypto here:
+  If you enjoy my work, specially with this 1 person challenge, you may donate crypto here:
   Btc: bc1q6k4hw8e7p7ap6dga02nll444dfcxklvd0qwnkg
   
   Eth: 0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
@@ -112,19 +183,4 @@ Access via http://localhost:5000 to view live data and location.
   USDT (ETH Stablecoin):0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
   
   Dogecoin: DKvXuFT9nC8fc1TuVsoX5NdXhHe1pmqioN
-  
-  SEI: 0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
-  
-  ApeCoin: 0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
-  
-  Pepe: 0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
-  
-  PudgyPenguins: 2FwHfCfAeqfAN4X3mS4ts3hm4uXfg6uYsWcSmp1pwTnZ
-  
-  Bonk: 2FwHfCfAeqfAN4X3mS4ts3hm4uXfg6uYsWcSmp1pwTnZ
-  
-  Trump: 2FwHfCfAeqfAN4X3mS4ts3hm4uXfg6uYsWcSmp1pwTnZ
-  
-  AVAX: 0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
-  
-  Cardano: addr1qxpceal2fxtr7cc2gqfcqvll5dzm2ywyza9zugvrn8aul95r3nm75jvk8a3s5sqnsqellg69k5gug9629csc8x0me7tqwvdhtp
+
