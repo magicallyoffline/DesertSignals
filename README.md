@@ -11,7 +11,7 @@
 - This project is in development — future versions will include richer NASA overlays, historical trends, and automated health alerts. This challenge only has one team member.
 
   # Video Demo
-  Enjoy our video demo here:
+  Enjoy our 30 second video demo here: 🌕 https://youtu.be/8nuQSTnmLU8 🌕
 
   # Disclaimer:
   We are not NASA but enjoy outer space, real life and challenges.
@@ -19,15 +19,25 @@
   # Buy me a coffee
   If you enjoy my work, specially this 1 person challenge, you may donate crypto here:
   Btc: bc1q6k4hw8e7p7ap6dga02nll444dfcxklvd0qwnkg
+  
   Eth: 0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
+  
   Sol: 2FwHfCfAeqfAN4X3mS4ts3hm4uXfg6uYsWcSmp1pwTnZ
+  
   XRP: rDPbCNMAKGbD3bVeQxq9AKAmRnbSfCzPNn
+  
   BNB:0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
+  
   USDC (ETH Stablecoin): 0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
+  
   USDT (ETH Stablecoin):0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
+  
   Dogecoin: DKvXuFT9nC8fc1TuVsoX5NdXhHe1pmqioN
+  
   SEI: 0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
+  
   ApeCoin: 0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
+  
   Pepe: 0x48CBE58828c11feA3e013E4037Ce0042D6A2182C
   PudgyPenguins: 2FwHfCfAeqfAN4X3mS4ts3hm4uXfg6uYsWcSmp1pwTnZ
   Bonk: 2FwHfCfAeqfAN4X3mS4ts3hm4uXfg6uYsWcSmp1pwTnZ
