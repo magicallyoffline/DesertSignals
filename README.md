@@ -52,7 +52,7 @@ Features:
 
 - Raspberry Pi 4 (or 3B+)
 
--Pi Camera Module or USB Webcam (visible + near-UV sensitive)
+- Pi Camera Module or USB Webcam (visible + near-UV sensitive)
 
 - Diffraction grating film 1000 lines/mm
 
